@@ -1,5 +1,6 @@
 #!/bin/bash
-#:::digmeup.sh | an open source, OSINT recon tool by Logan S. Diomedi - 2019:::
+#:::digmeup.sh | an open source, OSINT recon tool by Logan S. Diomedi - https://lsdsecurity.com 2019:::
+#:::https://lsdsecurity.com/2019/02/digmeup-a-very-quick-and-simple-enumeration-tool-written-in-bash-for-recon/
 #:::https://github.com/logansdiomedi/bash-recon-project/blob/master/digmeup.sh:::
 #Usage: ./digmeup.sh google.com
 #######################################################################
