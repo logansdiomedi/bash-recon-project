@@ -22,7 +22,7 @@ twofourip=$(cat /tmp/aresults.txt |grep "has address" | cut -d " " -f 4|cut -d".
 ### To-Do: Accept hosts with more than one A record registered to them (ex: sprint.com)
 ###
 echo -e "Host $recondomain has the IP address of $fullip\n--------------------"
-echo -e "The host most likely owns the /24 block - we'll do a reverse DNS on $twofourip...\n--------------------"
+echo -e "The host most likely owns the /24 block - we'll do a reverse DNS on $twofourip.1/24...\n--------------------"
 
 ### For loop to run reverse DNS lookup and then cleanup:::
 for ipblock in $(seq 1 254);do
